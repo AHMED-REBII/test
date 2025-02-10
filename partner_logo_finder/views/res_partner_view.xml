@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <record id="res_partner_view_form_inherit_partner_logo_finder" model="ir.ui.view">
+    <field name="name">res.partner.view.form.inherit</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form" />
+    <field name="arch" type="xml">
+      <field name="image_1920" position="after">
+        <div class="oe_avatar">
+          <button
+            name="set_logo"
+            icon="oi-search"
+            string="Search Logo"
+            type="object"
+            class="btn btn-link text"
+            invisible="not email and not website"
+          />
+        </div>
+      </field>
+    </field>
+  </record>
+</odoo>

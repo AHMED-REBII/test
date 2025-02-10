@@ -1,0 +1,62 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_logo_finder
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-09 15:23+0000\n"
+"PO-Revision-Date: 2024-10-09 15:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_logo_finder
+#: model:ir.model,name:partner_logo_finder.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: partner_logo_finder
+#. odoo-python
+#: code:addons/partner_logo_finder/models/res_partner.py:0
+#, python-format
+msgid "Error fetching logo: %s"
+msgstr "Erreur lors de la récupération du logo : %s"
+
+#. module: partner_logo_finder
+#. odoo-python
+#: code:addons/partner_logo_finder/models/res_partner.py:0
+#, python-format
+msgid "Invalid email address! Please provide a valid email."
+msgstr "Adresse e-mail invalide! Veuillez fournir un e-mail valide."
+
+#. module: partner_logo_finder
+#. odoo-python
+#: code:addons/partner_logo_finder/models/res_partner.py:0
+#, python-format
+msgid "Invalid website url! Please provide a valid website url."
+msgstr ""
+"URL de site Web invalide ! Veuillez fournir une URL de site Web valide."
+
+#. module: partner_logo_finder
+#: model_terms:ir.ui.view,arch_db:partner_logo_finder.res_partner_view_form_inherit_partner_logo_finder
+msgid "Search Logo"
+msgstr "Rechercher logo"
+
+#. module: partner_logo_finder
+#. odoo-python
+#: code:addons/partner_logo_finder/models/res_partner.py:0
+#, python-format
+msgid "The company's logo could not be found from the email."
+msgstr "Le logo de cette société n’a pas pu être trouvé à partir de l’email."
+
+#. module: partner_logo_finder
+#. odoo-python
+#: code:addons/partner_logo_finder/models/res_partner.py:0
+#, python-format
+msgid "The company's logo could not be found from the website."
+msgstr "Le logo de cette société n’a pas pu être trouvé à partir du site Web."

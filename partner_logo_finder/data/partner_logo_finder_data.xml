@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<odoo noupdate="1">
+  <record id="partner_logo_finder_param" model="ir.config_parameter">
+    <field name="key">partner_logo_finder</field>
+    <field name="value">https://logo.clearbit.com/</field>
+  </record>
+</odoo>
